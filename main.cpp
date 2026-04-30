@@ -40,3 +40,6 @@ void ScreenSaverApp::UpdateAndDraw() {
     SelectObject(m_hdc, GetStockObject(WHITE_BRUSH));
     Ellipse(m_hdc, m_x - 30, m_y - 30, m_x + 30, m_y + 30);
 }
+
+
+void test() { /* User2 작성 */ }
